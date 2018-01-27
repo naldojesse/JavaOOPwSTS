@@ -1,3 +1,4 @@
+package com.naldojesse.zootracker;
 
 public class Mammal {
 	private int energyLevel = 100;

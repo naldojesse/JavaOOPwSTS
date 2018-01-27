@@ -1,3 +1,4 @@
+package com.naldojesse.zootracker;
 
 public class Gorilla extends Mammal{	
 	
