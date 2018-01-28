@@ -1,7 +1,8 @@
 package com.naldojesse.zootracker;
 
 public class Mammal {
-	private int energyLevel = 100;
+	protected int energyLevel = 100;
+	
 	public int displayEnergy() {
 		System.out.println("Energy level is at: " + energyLevel);
 		return energyLevel;
