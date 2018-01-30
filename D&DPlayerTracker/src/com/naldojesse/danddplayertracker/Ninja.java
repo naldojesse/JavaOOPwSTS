@@ -12,7 +12,9 @@ public class Ninja extends Human{
 		if (hHealth < 10) {
 			h.setHealth(0);
 		}
+		h.setHealth(hHealth -= stealth);
 		health += hHealth;
+		
 	}
 	
 	public void runAway() {

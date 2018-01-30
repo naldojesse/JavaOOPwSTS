@@ -1,3 +1,9 @@
+// ● Create a Human class
+//● Add the strength, stealth, and intelligence attributes with a default of 3
+//● Add the health attribute with a default of 100
+//● Add the attack(Human) method that reduces the health of the attacked human by the strength of the current human.
+//● Test these methods work using a HumanTest class
+
 package com.naldojesse.danddplayertracker;
 
 public class Human {
