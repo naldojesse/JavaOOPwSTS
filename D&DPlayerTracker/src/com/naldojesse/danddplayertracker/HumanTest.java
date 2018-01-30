@@ -72,6 +72,9 @@ public class HumanTest {
 		System.out.println(n.getHealth());
 
 		//testing Samurai class
+		int samuraiCountBefore = Samurai.howMany();
+		System.out.println(samuraiCountBefore);
+		
 		Samurai s = new Samurai();
 		System.out.println("The Samurai is here!");
 		System.out.println(s.getHealth());
@@ -82,7 +85,8 @@ public class HumanTest {
 		System.out.println(s.getHealth());
 		s.meditate();
 		System.out.println(s.getHealth());
-		int samuraiCount = s.howMany();
+		
+		int samuraiCount = Samurai.howMany();
 		System.out.println(samuraiCount);
 		
 	}

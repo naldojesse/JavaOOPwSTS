@@ -18,7 +18,7 @@ public class Samurai extends Human{
 		health += health/2;
 	}
 	
-	public int howMany() {
+	public static int howMany() {
 		return samuraiCount;
 	}
 	
