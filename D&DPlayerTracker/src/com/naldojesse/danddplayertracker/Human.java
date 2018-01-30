@@ -1,16 +1,19 @@
 package com.naldojesse.danddplayertracker;
 
 public class Human {
-	private int strength = 3;
-	private int stealth = 3;
-	private int intelligence = 3;
-	private int health = 100;
+	protected int strength = 3;
+	protected int stealth = 3;
+	protected int intelligence = 3;
+	protected int health = 100;
 	
+	
+	//Reduces health of attacked human by strength of current human
 	public void attack(Human human) {
-		int attackerStrength = human.getStrength();
-		health -= attackerStrength;
+		health -= human.strength;
 		System.out.println("Human was attacked!");
 	}
+	
+//	Getters and Setters
 	
 	public int getStrength() {
 		return strength;
