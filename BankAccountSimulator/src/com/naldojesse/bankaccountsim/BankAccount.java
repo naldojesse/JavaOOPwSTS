@@ -94,6 +94,7 @@ public class BankAccount {
 		
 	}
 	
+	//● Create a method to see the total money from the checking and saving.
 	public String getTotalBalance() {
 		BigDecimal totalBalance = savingsBal.add(checkingsBal);
 		return "Your total balance is : $" + totalBalance;

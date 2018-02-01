@@ -18,7 +18,7 @@ public class BankAccountTest {
 		System.out.println(a.getCheckingsBal());
 		System.out.println(a.getSavingsBal());
 		
-		System.out.println(BankAccount.getAllAccountsTotal());
+		System.out.println(BankAccount.getAllAccountsTotal()); 
 		
 		System.out.println(a.withdraw("savings", 5938.10388));
 		System.out.println(a.withdraw("checkings", 5));
