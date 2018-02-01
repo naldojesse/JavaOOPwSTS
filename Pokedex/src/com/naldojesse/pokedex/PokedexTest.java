@@ -15,7 +15,8 @@ public class PokedexTest {
 		pokedex.attackPokemon(p1);
 		System.out.println(p1.getHealth());
 		
-		//test  
+		//test pokemonInfo method
+		System.out.println(pokedex.pokemonInfo(p1));
 		
 	}
 

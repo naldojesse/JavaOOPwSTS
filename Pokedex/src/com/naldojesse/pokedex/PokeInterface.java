@@ -1,14 +1,14 @@
 package com.naldojesse.pokedex;
 
+//• Create an interface for the following methods:
+//	
+//	• createPokemon(String name, int health, String type): creates a Pokemon.
+//	• attackPokemon(Pokemon pokemon): lowers the attacked Pokemon's health by 10
+//	• pokemonInfo(Pokemon pokemon): returns the name, health, and type of the pokemon
+
+
 public interface PokeInterface {
 	Pokemon createPokemon(String name, int health, String type);
-	default void attackPokemon(Pokemon pokemon) {
-//		pokemon.healt -= 10;
-		int health = pokemon.getHealth();
-		pokemon.setHealth(health -= 10);
-	}
-//	static String pokemonInfo(Pokemon pokemon) {
-//		return "Name: " + pokemon.getName() + " Health: " + pokemon.getHealth() + " Type: " + pokemon.getType();
-//	}
+	void attackPokemon(Pokemon pokemon);
 	String pokemonInfo(Pokemon pokemon);
 }

@@ -1,5 +1,12 @@
 package com.naldojesse.pokedex;
 
+//• Create a Pokemon class with:
+//	
+//	• name, health, and type member variables.
+//	• a count static variable that keeps the number of Pokemon created in the program.
+//	• getters and setters for each member variable.
+//a constructor class to set the instance's name, health, and type on creation
+
 public class Pokemon {
 	private String name;
 	private int health;
