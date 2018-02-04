@@ -20,8 +20,20 @@ public class Calculator implements java.io.Serializable, CalcInterface{
 		this.operation = operation;
 	}
 	
+	public double getOperandOne() {
+		return operandOne;
+	}
+	
 	public void setOperandOne(double operandOne) {
 		this.operandOne = operandOne;
+	}
+	
+	public double getOperandTwo() {
+		return operandTwo;
+	}
+	
+	public String getOperation() {
+		return operation;
 	}
 	
 	public void setOperation(String operation) {
@@ -33,11 +45,13 @@ public class Calculator implements java.io.Serializable, CalcInterface{
 	}
 
 	
-	public void performOperation() {
+	public String performOperation() {
 		if (operation == "+") {
 			results = operandOne + operandTwo;
-		} else {
+		} else if (operation == "-"){
 			results = operandOne - operandTwo;
+		} else {
+			
 		}
 	}
 	
