@@ -9,6 +9,9 @@ public class Calculator implements java.io.Serializable, CalcInterface{
     public Calculator() {
     }
 
+
+    //when input equals "=", this function will run and calculate
+    //all the numbers with their corresponding operands
     private void calculate() {
         results = numbers.get(0);
         System.out.println(results);
