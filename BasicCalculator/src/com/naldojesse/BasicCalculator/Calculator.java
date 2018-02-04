@@ -48,10 +48,12 @@ public class Calculator implements java.io.Serializable, CalcInterface{
 	public String performOperation() {
 		if (operation == "+") {
 			results = operandOne + operandTwo;
+			return "Performed addition!";
 		} else if (operation == "-"){
 			results = operandOne - operandTwo;
+			return "Performed subtraction!";
 		} else {
-			
+			return "Unrecognizable Operand, please set operand and try again!";
 		}
 	}
 	
